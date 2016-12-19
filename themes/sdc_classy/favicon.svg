@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="869.159px" height="464.942px" viewBox="0 0 869.159 464.942" enable-background="new 0 0 869.159 464.942"
+	 xml:space="preserve">
+<g id="Layer_1" display="none">
+	
+		<image display="inline" overflow="visible" opacity="0.6" width="858" height="465" xlink:href="../../Downloads/iepr_esp_trans_reg.png"  transform="matrix(0.9999 0 0 0.9999 11.2656 0)">
+	</image>
+</g>
+<g id="Layer_3">
+	<radialGradient id="SVGID_1_" cx="87.8232" cy="124.3823" r="75.9995" fx="76.6313" fy="107.0863" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.054" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.1623" style="stop-color:#FAFCF4"/>
+		<stop  offset="0.3551" style="stop-color:#ECF3D5"/>
+		<stop  offset="0.6098" style="stop-color:#D5E6A4"/>
+		<stop  offset="0.9135" style="stop-color:#B6D361"/>
+		<stop  offset="1" style="stop-color:#ADCD4C"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="95.93" cy="132.489" r="76"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<g>
+			<g>
+				<polygon fill="#5843A2" points="176.804,391.011 60.304,454.511 22.304,407.511 129.804,378.511 				"/>
+			</g>
+		</g>
+		<polygon fill="#B3AAD9" points="60.304,454.511 22.304,433.511 22.304,407.511 60.304,426.649 		"/>
+		<g>
+			<g>
+				<polygon fill="#1F0987" points="176.921,418.086 60.304,454.511 60.304,426.649 176.804,391.011 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#5843A2" points="134.554,364.603 60.305,411.381 22.304,364.834 88.804,349.244 		"/>
+		<polygon fill="#1F0987" points="134.554,389.119 60.387,411.236 60.305,384.375 134.554,364.603 		"/>
+		<polygon fill="#B3AAD9" points="60.305,411.236 22.304,389.861 22.304,364.834 60.305,384.375 		"/>
+	</g>
+	<g>
+		<g>
+			<polygon fill="#5843A2" points="166.304,314.267 61.054,368.098 22.304,324.517 114.304,300.267 			"/>
+			<polygon fill="#B3AAD9" points="61.054,367.96 22.304,350.517 22.304,324.517 61.054,340.098 			"/>
+		</g>
+		<polygon fill="#1F0987" points="166.304,341.113 61.054,367.96 61.054,340.098 166.304,314.267 		"/>
+	</g>
+	<g display="none">
+		<rect x="206.192" y="242.254" display="inline" fill="none" width="671.967" height="118.564"/>
+		<text transform="matrix(1 0 0 1 206.1919 282.0522)" display="inline"><tspan x="0" y="0" font-family="'TrebuchetMS'" font-size="54">Instituto de Estadísticas</tspan><tspan x="0" y="64.8" font-family="'TrebuchetMS'" font-size="54">de Puerto Rico</tspan></text>
+		<rect x="203.427" y="362.29" display="inline" width="593.661" height="6"/>
+		<text transform="matrix(1 0 0 1 204.4272 408.6079)" display="inline" font-family="'TrebuchetMS'" font-size="35">Estado Libre Asociado de Puerto Rico</text>
+	</g>
+	<g>
+		<polygon fill="#5843A2" points="119.554,281.703 60.639,323.829 23.388,281.941 78.138,270.691 		"/>
+		<polygon fill="#B3AAD9" points="60.639,323.685 23.388,308.559 23.388,281.934 60.639,295.822 		"/>
+		<polygon fill="#1F0987" points="119.554,308.93 60.693,323.685 60.611,295.824 119.554,281.703 		"/>
+	</g>
+	<polygon fill="#5843A2" points="177.304,225.492 60.304,281.242 23.388,239.658 127.304,216.492 	"/>
+	<polygon fill="#B3AAD9" points="60.639,281.409 23.388,266.283 23.388,239.658 60.639,253.547 	"/>
+	<polygon fill="#1F0987" points="176.963,253.137 60.639,281.409 60.639,253.547 177.304,225.492 	"/>
+</g>
+</svg>

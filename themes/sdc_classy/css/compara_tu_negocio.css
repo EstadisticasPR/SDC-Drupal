@@ -1,0 +1,36 @@
+.ctn-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.ctn-form-container {
+  width: 100%;
+}
+
+.form-fields {
+  flex-basis: 100%;
+}
+
+.ctn-image {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 10px 20px 20px 20px;
+  width: 100%;
+  background: url(../images/business_ctn_dollar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 768px){
+  .ctn-form {
+  flex-wrap: wrap;
+  }
+  .ctn-image {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 10px 0px;
+    width: 100%;
+    height: 100px;
+  }
+}
+

@@ -1,0 +1,13 @@
+
+.carousel {
+	margin-bottom: 1px;
+}
+
+.carousel-indicators li {
+	margin: 0;
+}
+
+.carousel-inner {
+	text-align: center;
+    max-height: 500px;
+}

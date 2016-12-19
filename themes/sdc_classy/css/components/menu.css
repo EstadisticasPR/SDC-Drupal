@@ -1,0 +1,117 @@
+/**
+ * @file
+ * Styles for menus in Bartik.
+ */
+
+/* This is needed to override ul.menu styles in menu.theme.css */
+ul.menu {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+ul.menu li {
+  font-size: 14px;
+}
+
+ul.menu-studies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li.menu-item-studies {
+  display: inline-block;
+  height: 100px;
+  background-color: #1d84c3;
+  border: #e2e1e0 solid 1px;
+}
+
+li.menu-item-studies a {
+  border: none;
+  font-size: 24px;
+  color: #fff;
+}
+li.menu-item-studies:hover {
+  background-color: #329ee1;
+  transition: .5s;
+}
+li.menu-item-studies a:hover {
+  font-size: 24px;
+  color: #444;
+  transition: .5s;
+}
+
+
+
+.menu-link-studies {
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  /*align-items:center;*/
+  justify-content:center;
+}
+
+div.estimados {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  height: 100%;
+  background: url(/themes/sdc_classy/people.svg) no-repeat center;
+  background-size: 45px;
+}
+div.pr-acs {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: url(/themes/sdc_classy/acs_pie_chart.svg) no-repeat center;
+  background-size: 45px;
+}
+div.censo-decenal {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: url(/themes/sdc_classy/census.svg) no-repeat center;
+  background-size: 50px;
+}
+div.censo-economico {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: url(/themes/sdc_classy/dollar.svg) no-repeat center;
+  background-size: 60px;
+}
+
+@media (max-width: 767px) {
+  li.menu-item-studies {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  li.menu-item-studies {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  li.menu-item-studies {
+    width: 25%;
+
+  }
+}
+
+
+/* This is needed to override [dir="rtl"] ul.menu styles in menu.theme.css */
+[dir="rtl"] ul.menu {
+  margin: 0;
+}
+
+
+.menu--main {
+  border-color: #1d84c3;
+}

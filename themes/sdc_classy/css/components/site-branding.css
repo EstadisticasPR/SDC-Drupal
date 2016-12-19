@@ -1,0 +1,60 @@
+/**
+ * @file
+ * Visual styles for the site branding block in Bartik.
+ */
+
+.site-branding {
+  padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .site-branding {
+    display: block;
+    float: left;
+    padding-left: 10px;
+  }
+}
+
+.site-branding__logo {
+  display: block;
+  float: left;
+  padding: 25px 25px;
+  height: 50px;
+  width: 125px;
+  background-repeat: no-repeat;
+}
+[dir="rtl"] .site-branding__logo {
+  margin-right: 0;
+  margin-left: 1em;
+}
+.site-branding__text {
+  display: inline-block;
+  vertical-align: top;
+}
+@media all and (min-width: 461px) {
+  .site-branding__text {
+    padding: 1.0em 0 0;
+  }
+}
+@media all and (min-width: 901px) {
+  .site-branding__text {
+    padding: 1.0em 0 0;
+  }
+}
+.site-branding__name {
+  font-size: 1.6em;
+  color: #686868;
+  line-height: 1;
+}
+@media all and (min-width: 901px) {
+  .site-branding__name {
+    font-size: 1.821em;
+  }
+}
+.site-branding__slogan {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.929em;
+  margin-top: 7px;
+  word-spacing: 0.1em;
+  font-style: italic;
+}

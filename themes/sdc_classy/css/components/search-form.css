@@ -1,0 +1,98 @@
+/**
+ * @file
+ * The visual styles for Bartik's search form(s).
+ */
+.search-block-form {
+    align-self: center;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 0;
+  float: right;
+  margin: 9px 0px;
+}
+
+@media (max-width: 767px) {
+  .search-form {
+    display: flex ;
+    float: none;
+    width: 100%;
+  }
+  .form-type-search {
+    display: flex;
+    flex-grow: 10;
+  }
+  .search-form .form-search {
+    width: 100%;
+  } 
+  .search-page-form >div>div> input.form-search{
+    width: auto;
+  }  
+}
+
+.search-form .form-search {
+  float: left; /* LTR */
+  padding: 4px;
+  height: 28px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+[dir="rtl"] .search-form .form-search {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0;
+  font-size: 15px;
+}
+
+.search-form .form-actions {
+  padding: 0px;
+}
+
+.form-submit {
+  height: auto;
+  border: 0px solid #ccc;
+  border-radius: 0;
+  font-size: medium;
+  padding: 4px;
+}
+
+
+.button.search-form__submit,
+.search-form__submit {
+  background:  url(../../../../core/misc/icons/505050/loupe.svg) no-repeat center;
+  background-color: #fff;
+  cursor: pointer;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  direction: ltr;
+  width: 34px;
+  border-radius: 0;
+  border: none;
+}
+.button.search-form__submit:hover,
+.search-form__submit:hover,
+.button.search-form__submit:focus,
+.search-form__submit:focus {
+  background: #dedede url(../../../../core/misc/icons/424242/loupe.svg) no-repeat center;
+}
+.search-form .form-item-keys label {
+  display: block;
+  font-size: 16px;
+}
+
+.form-actions {
+  float: right;
+  margin: 0;
+}
+
+
+
+
+
+

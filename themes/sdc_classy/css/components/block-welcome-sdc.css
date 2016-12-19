@@ -1,0 +1,41 @@
+
+/* CSS for custom Block Welcome to the PR-SDC
+*/
+.block-welcome-with-pop-clock .content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block-welcome-sdc {
+	padding: 20px;
+
+	width: 75%;
+}
+.block-population-clock {
+	padding:20px;
+	width: 25%;
+}
+.block-population-clock a {
+	color: #ffff00;
+}
+.block-population-clock a:hover {
+	color: #fff;
+}
+
+@media (max-width: 1200px) {
+	.block-welcome-sdc {
+		width: 50%;
+	}
+	.block-population-clock {
+		width: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.block-welcome-sdc {
+		width: 100%;
+	}
+	.block-population-clock {
+		width: 100%;
+	}
+}
+

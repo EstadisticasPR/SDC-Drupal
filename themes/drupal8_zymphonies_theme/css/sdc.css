@@ -1,0 +1,7 @@
+#block-drupal8-zymphonies-theme-main-menu .contextual-region{
+	float:left;
+}
+
+#block-drupal8-zymphonies-theme-search .search-block-form {
+	float:right;
+}

@@ -1,0 +1,51 @@
+
+
+.recent-publications header h2 {
+	padding-top: 0;
+	font-size: 1.4em;
+}
+.recent-publications .field--name-body {
+	flex-grow:1;
+}
+.recent-publications .field--date {
+	align-self:flex-end;
+}
+
+.recent-publications article {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.recent-publications .field--type-image {
+	width: 100%;
+	margin:0;
+	text-align: center;
+}
+
+.recent-publications .node__content {
+	display:flex;
+	flex-direction:column;
+	width: 100%;
+	margin:0 10px;
+}
+
+@media all and (min-width: 768px) {
+.recent-publications article {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.recent-publications .field--type-image {
+	width: 25%;
+	margin:0;
+	text-align: center;
+}
+
+.recent-publications .node__content {
+	display:flex;
+	flex-direction:column;
+	width: 75%;
+	margin:0 10px;
+}
+}

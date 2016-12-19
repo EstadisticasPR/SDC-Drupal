@@ -1,0 +1,42 @@
+/**
+ * @file
+ * Visual styles for Bartik's blocks.
+ */
+
+/* Block has it's own content wrapper. */
+.block {
+	font-size: 16px;
+}
+
+.block .content {
+  margin-top: 10px;
+}
+
+.sdc-block-blue {
+	display: inline-block;
+	border: #e2e1e0 solid 1px;
+	background: #1d84c3;
+}
+
+.block-system-branding-block {
+	position: static;
+}
+
+.breadcrumb {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+	border-radius: 0px;
+}
+
+.region-sidebar-first {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.region-sidebar-second {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.region-content {
+	margin-bottom: 15px;
+}
